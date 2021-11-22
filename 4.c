@@ -11,6 +11,7 @@ int main() {
 
     len = strlen(s);
 
+    printf("Duplicate Values :")
     for (i = 0; i < len; i++) {
         for (j = i + 1; j < len; j++) {
             if (s[i] == s[j]) {
